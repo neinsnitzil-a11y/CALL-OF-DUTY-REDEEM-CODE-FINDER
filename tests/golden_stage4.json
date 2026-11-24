@@ -1,0 +1,312 @@
+{
+ "changes": [
+  {
+   "text": "M4\n• Increased damage range\n• Reduced recoil\nKilo 141\n- Damage reduced at long range",
+   "out": [
+    {
+     "weapon": "M4",
+     "direction": "buff",
+     "detail": [
+      "Increased damage range",
+      "Reduced recoil"
+     ]
+    },
+    {
+     "weapon": "Kilo 141",
+     "direction": "nerf",
+     "detail": [
+      "Damage reduced at long range"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "The M4 was nerfed, while the VEL 46 got buffed. AK-47 recoil increased; MP5 is unchanged.",
+   "out": [
+    {
+     "weapon": "M4",
+     "direction": "nerf",
+     "detail": [
+      "The M4 was nerfed, while the VEL 46 got buffed."
+     ]
+    },
+    {
+     "weapon": "VEL 46",
+     "direction": "buff",
+     "detail": [
+      "The M4 was nerfed, while the VEL 46 got buffed."
+     ]
+    },
+    {
+     "weapon": "AK-47",
+     "direction": "nerf",
+     "detail": [
+      "AK-47 recoil increased; MP5 is unchanged."
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Weapon balancing: MP5 fire rate increased and the AK-47 damage lowered. Kilo 141 ADS time reduced but its range decreased.",
+   "out": [
+    {
+     "weapon": "MP5",
+     "direction": "buff",
+     "detail": [
+      "Weapon balancing: MP5 fire rate increased and the AK-47 damage lowered."
+     ]
+    },
+    {
+     "weapon": "AK-47",
+     "direction": "nerf",
+     "detail": [
+      "Weapon balancing: MP5 fire rate increased and the AK-47 damage lowered."
+     ]
+    },
+    {
+     "weapon": "Kilo 141",
+     "direction": "changed",
+     "detail": [
+      "Kilo 141 ADS time reduced but its range decreased."
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Patch notes for today. Nothing about guns here.",
+   "out": []
+  },
+  {
+   "text": "VEL 46: improved handling. Faster ADS.",
+   "out": [
+    {
+     "weapon": "VEL 46",
+     "direction": "buff",
+     "detail": [
+      "VEL 46: improved handling."
+     ]
+    }
+   ]
+  }
+ ],
+ "dates": {
+  "Mon, 23 Nov 2026 10:00:00 GMT": "2026-11-23T10:00:00+00:00",
+  "Tue, 03 Nov 2026 08:30:00 +0200": "2026-11-03T06:30:00+00:00",
+  "2026-11-20T10:00:00Z": "2026-11-20T10:00:00+00:00",
+  "2026-11-20": "2026-11-20T05:00:00+00:00",
+  "garbage": null
+ },
+ "stats": [
+  {
+   "weapon": "M4",
+   "class": "",
+   "rpm": 810,
+   "ads_ms": 220,
+   "velocity": 780,
+   "mag": 30,
+   "damage": [
+    [
+     0,
+     34.0
+    ],
+    [
+     25,
+     28.0
+    ],
+    [
+     45,
+     24.0
+    ]
+   ]
+  },
+  {
+   "weapon": "Kilo 141",
+   "class": "",
+   "rpm": 750,
+   "sprint_to_fire_ms": 180,
+   "mag": 45
+  }
+ ],
+ "clean": {
+  "weapon": "M4",
+  "class": "",
+  "ads_ms": 220,
+  "reload_s": 2.35,
+  "damage": [
+   [
+    0,
+    34.0
+   ],
+   [
+    25,
+    29.0
+   ]
+  ]
+ },
+ "ttk": {
+  "t100": {
+   "stk_close": 3,
+   "ttk_close": 150,
+   "stk_far": 5,
+   "ttk_far": 300
+  },
+  "t250": {
+   "stk_close": 8,
+   "ttk_close": 525,
+   "stk_far": 11,
+   "ttk_far": 750
+  },
+  "curve": [
+   [
+    0,
+    300
+   ],
+   [
+    5,
+    300
+   ],
+   [
+    10,
+    300
+   ],
+   [
+    15,
+    300
+   ],
+   [
+    20,
+    300
+   ],
+   [
+    25,
+    375
+   ],
+   [
+    30,
+    375
+   ],
+   [
+    35,
+    375
+   ],
+   [
+    40,
+    375
+   ],
+   [
+    45,
+    450
+   ],
+   [
+    50,
+    450
+   ],
+   [
+    55,
+    450
+   ],
+   [
+    60,
+    450
+   ],
+   [
+    65,
+    450
+   ],
+   [
+    70,
+    450
+   ],
+   [
+    75,
+    450
+   ],
+   [
+    80,
+    450
+   ]
+  ]
+ },
+ "wilson": [
+  0.0,
+  0.20654329147389294,
+  0.8969519232441061,
+  0.2992949144298199,
+  0.10778928748621182
+ ],
+ "issue_title": "[Warzone] M4 — slayer",
+ "parsed": {
+  "v": 1,
+  "game": "warzone",
+  "weapon": "M4",
+  "class": "AR",
+  "mode": "warzone",
+  "playstyle": "slayer",
+  "range": "",
+  "attachments": [
+   [
+    "Optic",
+    "Corio"
+   ],
+   [
+    "Muzzle",
+    "IS300"
+   ]
+  ],
+  "perks": [
+   "Double Time"
+  ],
+  "equipment": [],
+  "input": "",
+  "season": "",
+  "number": 7,
+  "url": "https://github.com/o/r/issues/7",
+  "title": "[Warzone] M4 — slayer",
+  "author": "alice",
+  "avatar": "",
+  "up": 5,
+  "down": 1,
+  "score": 0.4365,
+  "comments": 2,
+  "verified": true,
+  "created": "2026-11-20T00:00:00Z"
+ },
+ "classes": {
+  "SMG close range": [
+   "smg",
+   "close"
+  ],
+  "Assault rifle": [
+   "ar",
+   "mid"
+  ],
+  "Sniper long lanes": [
+   "sniper",
+   "long"
+  ],
+  "tactical rifle DMR": [
+   "marksman",
+   "mid"
+  ],
+  "LMG anchor": [
+   "lmg",
+   "long"
+  ],
+  "pistol": [
+   "pistol",
+   "mid"
+  ],
+  "Shotgun rush": [
+   "shotgun",
+   "close"
+  ],
+  "rifle mid": [
+   "ar",
+   "mid"
+  ],
+  "Marksman rifle": [
+   "marksman",
+   "mid"
+  ]
+ }
+}

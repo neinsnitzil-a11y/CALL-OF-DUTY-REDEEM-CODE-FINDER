@@ -1,0 +1,764 @@
+{
+  "app_name": "COD Redemption Hunter",
+  "version": "6.4.3",
+  "discovery": {
+    "scope": "both_auto_classify",
+    "poll_interval_seconds": 300,
+    "min_poll_interval_seconds": 120,
+    "request_timeout_seconds": 20,
+    "delay_between_sources_seconds": 2.0,
+    "max_sources_per_cycle": 40,
+    "respect_robots_txt": true,
+    "user_agent": "CODRedemptionHunter/6.0 (open-source personal code monitor)"
+  },
+  "intelligence": {
+    "min_code_length": 8,
+    "max_code_length": 20,
+    "ready_confidence_threshold": 60,
+    "corroboration_bonus_per_source": 5,
+    "corroboration_bonus_cap": 15,
+    "region_known_bonus": 3,
+    "expiry_known_bonus": 2,
+    "code_blocklist": [
+      "CALLOFDUTY",
+      "ACTIVISION",
+      "REDEMPTION",
+      "GARENACODM",
+      "LEADERBOARD",
+      "BATTLEPASS"
+    ],
+    "codm_shape_bonus": 5,
+    "odd_shape_penalty": 20
+  },
+  "source_scoring": {
+    "official": 100,
+    "established_publisher": 85,
+    "community": 65,
+    "unverified": 35
+  },
+  "account_protection": {
+    "max_attempts_per_day": 5,
+    "minimum_minutes_between_attempts": 15,
+    "max_consecutive_failures": 3,
+    "default_retry_after_minutes": 60,
+    "max_concurrent_submissions": 1
+  },
+  "redemption": {
+    "enabled": false,
+    "submit_mode": "manual",
+    "result_wait_seconds": 600,
+    "selectors": {
+      "uid": [
+        "input[name='uid']",
+        "input[name='openid']",
+        "input[placeholder*='UID' i]",
+        "input[placeholder*='Player ID' i]"
+      ],
+      "code": [
+        "input[name='code']",
+        "input[name='redeemCode']",
+        "input[placeholder*='code' i]",
+        "input[placeholder*='redemption' i]"
+      ],
+      "submit": [
+        "button[type='submit']",
+        "input[type='submit']",
+        "button:has-text('Redeem')",
+        "button:has-text('Submit')"
+      ]
+    },
+    "result_phrases": {
+      "SUCCESS": [
+        "redeemed successfully",
+        "redemption successful",
+        "successfully redeemed",
+        "rewards will be sent",
+        "check your in-game mail"
+      ],
+      "EXPIRED": [
+        "expired",
+        "no longer valid",
+        "has ended",
+        "event has ended"
+      ],
+      "INVALID": [
+        "invalid code",
+        "code is invalid",
+        "incorrect code",
+        "does not exist",
+        "wrong code"
+      ],
+      "ALREADY_REDEEMED": [
+        "already redeemed",
+        "already been used",
+        "already used",
+        "already claimed"
+      ],
+      "REGION_MISMATCH": [
+        "not available in your region",
+        "wrong region",
+        "server not supported"
+      ],
+      "RATE_LIMITED": [
+        "too many requests",
+        "too frequent",
+        "try again later"
+      ],
+      "BLOCKED": [
+        "access denied",
+        "account restricted",
+        "forbidden"
+      ],
+      "LIMIT_REACHED": [
+        "fully redeemed",
+        "fully claimed",
+        "redemption limit reached",
+        "reached its redemption limit",
+        "reached the redemption limit",
+        "reached its limit",
+        "code limit reached",
+        "out of stock",
+        "all rewards have been claimed",
+        "no redemptions left",
+        "maximum number of redemptions"
+      ]
+    },
+    "account_selectors": {
+      "code": [
+        "input[name='code']",
+        "input[id*='code' i]",
+        "input[placeholder*='code' i]"
+      ],
+      "submit": [
+        "button[type='submit']",
+        "button:has-text('Redeem')",
+        "input[type='submit']"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "PocketGamer – COD Mobile codes",
+      "type": "web",
+      "url": "https://www.pocketgamer.com/call-of-duty-mobile/codes/",
+      "trust": "established_publisher",
+      "enabled": true,
+      "interval_minutes": 10,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "notes": "Updated several times a month; also keeps a long expired list (auto-detected).",
+      "game": "codm"
+    },
+    {
+      "name": "Pocket Tactics – CODM codes",
+      "type": "web",
+      "url": "https://www.pockettactics.com/cod-mobile/redeem-codes",
+      "trust": "established_publisher",
+      "enabled": true,
+      "interval_minutes": 10,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "notes": "Expired codes sit under 'Why aren't my CODM codes working?' (auto-detected).",
+      "game": "codm"
+    },
+    {
+      "name": "Sportsdunia – COD Mobile redeem codes",
+      "type": "web",
+      "url": "https://www.sportsdunia.com/gaming/cod-mobile-redeem-codes",
+      "trust": "community",
+      "enabled": true,
+      "interval_minutes": 10,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "notes": "Labels Garena codes per line; has an expired section.",
+      "game": "codm"
+    },
+    {
+      "name": "AllThings.How – Call of Duty: Mobile codes",
+      "type": "web",
+      "url": "https://allthings.how/call-of-duty-mobile-codes/",
+      "trust": "community",
+      "enabled": true,
+      "interval_minutes": 15,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "notes": "",
+      "game": "codm"
+    },
+    {
+      "name": "MMO Culture – CODM redeem codes",
+      "type": "web",
+      "url": "https://mmoculture.com/redeem-codes/call-of-duty-mobile-redeem-codes/",
+      "trust": "community",
+      "enabled": true,
+      "interval_minutes": 15,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "notes": "May block automated visits; the scanner backs off if so.",
+      "game": "codm"
+    },
+    {
+      "name": "AxeeTech – Call of Duty Mobile codes",
+      "type": "web",
+      "url": "https://axeetech.com/call-of-duty-mobile-codes/",
+      "trust": "community",
+      "enabled": true,
+      "interval_minutes": 15,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "notes": "",
+      "game": "codm"
+    },
+    {
+      "name": "LDPlayer – CODM codes",
+      "type": "web",
+      "url": "https://www.ldplayer.net/codes/codm-codes.html",
+      "trust": "unverified",
+      "enabled": true,
+      "interval_minutes": 30,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "notes": "Emulator vendor blog; lists some non-standard codes.",
+      "game": "codm"
+    },
+    {
+      "name": "Reddit r/CallOfDutyMobile – 'redeem code' posts",
+      "type": "rss",
+      "url": "https://www.reddit.com/r/CallOfDutyMobile/search.rss?q=redeem+code&restrict_sr=on&sort=new&t=week",
+      "trust": "community",
+      "enabled": true,
+      "interval_minutes": 15,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "notes": "Player posts, often early. Skipped automatically if Reddit's robots.txt disallows it.",
+      "game": "codm"
+    },
+    {
+      "name": "Call of Duty Official Blog",
+      "type": "web",
+      "url": "https://www.callofduty.com/blog",
+      "trust": "official",
+      "enabled": true,
+      "interval_minutes": 30,
+      "regions": [
+        "Global"
+      ],
+      "notes": "Official season announcements; codes are rare here.",
+      "game": "auto"
+    },
+    {
+      "name": "Google News search – CODM codes",
+      "type": "google_news",
+      "query": "\"COD Mobile\" OR CODM \"redeem codes\"",
+      "days": 2,
+      "trust": "unverified",
+      "interval_minutes": 30,
+      "notes": "Free, no setup. Reads Google News headlines and summaries from the last 2 days.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "Google Alerts – whole web (your feed)",
+      "type": "google_alerts",
+      "url": "",
+      "trust": "unverified",
+      "interval_minutes": 30,
+      "max_pages": 6,
+      "refetch_hours": 6,
+      "notes": "Free Google web results. Create an alert at google.com/alerts, set Deliver to: RSS feed, paste the feed URL in Setup.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "auto"
+    },
+    {
+      "name": "YouTube – Call of Duty: Mobile (official)",
+      "type": "youtube",
+      "channel": "@CallofDutyMobile",
+      "trust": "official",
+      "interval_minutes": 30,
+      "regions": [
+        "Global"
+      ],
+      "notes": "If the handle can't be resolved, set channel_id to the channel's UC… ID.",
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "YouTube – Garena Call of Duty Mobile (official)",
+      "type": "youtube",
+      "channel_id": "UCX2dNdYesTrOC7tjiQs9jHA",
+      "trust": "official",
+      "interval_minutes": 30,
+      "regions": [
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "YouTube – Call of Duty: Mobile Esports (official)",
+      "type": "youtube",
+      "channel_id": "UC2WMdmYS1dclOCiJjyyW7_w",
+      "trust": "official",
+      "interval_minutes": 60,
+      "notes": "Codes are sometimes given out during broadcasts.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "LDShop – COD Mobile newest redeem codes",
+      "type": "web",
+      "url": "https://www.ldshop.gg/blog/call-of-duty-mobile-gp/cod-mobile-newest-redeem-codes.html",
+      "trust": "community",
+      "interval_minutes": 15,
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "PinoyTechSaga – Garena COD Mobile codes",
+      "type": "web",
+      "url": "https://pinoytechsaga.blogspot.com/2022/09/cod-mobile-garena-redeem-codes.html",
+      "trust": "community",
+      "interval_minutes": 15,
+      "regions": [
+        "Garena"
+      ],
+      "notes": "Updated monthly despite the 2022 address; 'former codes' lines are auto-detected.",
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "Vile Tempest (github.io) – CODM redeem codes",
+      "type": "web",
+      "url": "https://mob-extra.github.io/Vile-Tempest-Official/pages/codm-redeem-codes/",
+      "trust": "community",
+      "interval_minutes": 30,
+      "notes": "Its code table is filled in by JavaScript, so the scanner may see 0 codes here.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "YouTube video -iYPBZcgiFk",
+      "type": "web",
+      "url": "https://www.youtube.com/watch?v=-iYPBZcgiFk",
+      "trust": "unverified",
+      "interval_minutes": 360,
+      "notes": "A single video only exposes a short description to the scanner; channel feeds above are better.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "auto"
+    },
+    {
+      "name": "Reddit r/CallOfDutyMobile – new global redemption codes available fo",
+      "type": "rss",
+      "url": "https://www.reddit.com/r/CallOfDutyMobile/comments/1xxf8ew/new_global_redemption_codes_available_for_a/.rss",
+      "trust": "community",
+      "interval_minutes": 60,
+      "notes": "Reddit's robots.txt blocks automated access, so this is skipped while 'Respect robots.txt' is on.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "Reddit r/CallOfDutyMobile – redeem more codes for free stuff",
+      "type": "rss",
+      "url": "https://www.reddit.com/r/CallOfDutyMobile/comments/1xwlhu8/redeem_more_codes_for_free_stuff/.rss",
+      "trust": "community",
+      "interval_minutes": 60,
+      "notes": "Reddit's robots.txt blocks automated access, so this is skipped while 'Respect robots.txt' is on.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "Reddit r/CallOfDutyMobile – new redemption code claim before it expi",
+      "type": "rss",
+      "url": "https://www.reddit.com/r/CallOfDutyMobile/comments/1xvxq17/new_redemption_code_claim_before_it_expires/.rss",
+      "trust": "community",
+      "interval_minutes": 60,
+      "notes": "Reddit's robots.txt blocks automated access, so this is skipped while 'Respect robots.txt' is on.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "Reddit r/CallOfDutyMobile – anyone got working redeem codes to share",
+      "type": "rss",
+      "url": "https://www.reddit.com/r/CallOfDutyMobile/comments/1t1al81/anyone_got_working_redeem_codes_to_share/.rss",
+      "trust": "community",
+      "interval_minutes": 60,
+      "notes": "Reddit's robots.txt blocks automated access, so this is skipped while 'Respect robots.txt' is on.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "Reddit r/CODM – redeem codes",
+      "type": "rss",
+      "url": "https://www.reddit.com/r/CODM/comments/1rp9gwx/redeem_codes/.rss",
+      "trust": "community",
+      "interval_minutes": 60,
+      "notes": "Reddit's robots.txt blocks automated access, so this is skipped while 'Respect robots.txt' is on.",
+      "regions": [
+        "Global",
+        "Garena"
+      ],
+      "enabled": true,
+      "game": "codm"
+    },
+    {
+      "name": "AllThings.How – Warzone codes",
+      "type": "web",
+      "url": "https://allthings.how/call-of-duty-warzone-codes/",
+      "trust": "community",
+      "game": "warzone",
+      "interval_minutes": 30,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Beebom – Warzone codes",
+      "type": "web",
+      "url": "https://beebom.com/warzone-codes",
+      "trust": "community",
+      "game": "warzone",
+      "interval_minutes": 30,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Nerdschalk – Warzone codes",
+      "type": "web",
+      "url": "https://nerdschalk.com/warzone-codes/",
+      "trust": "community",
+      "game": "warzone",
+      "interval_minutes": 30,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "TechWiser – Warzone codes",
+      "type": "web",
+      "url": "https://techwiser.com/call-of-duty-warzone-codes/",
+      "trust": "community",
+      "game": "warzone",
+      "interval_minutes": 30,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Boosting-Ground – Warzone promo codes",
+      "type": "web",
+      "url": "https://boosting-ground.com/call-of-duty/guides/black-ops-7/warzone-free-promo-codes",
+      "trust": "unverified",
+      "game": "warzone",
+      "interval_minutes": 30,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Sportsdunia – Black Ops 7 codes",
+      "type": "web",
+      "url": "https://www.sportsdunia.com/gaming/call-of-duty-black-ops-7-codes",
+      "trust": "community",
+      "game": "bo7",
+      "interval_minutes": 30,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Game8 – Black Ops 7 redeem codes & promotions",
+      "type": "web",
+      "url": "https://game8.co/games/Call-of-Duty-Black-Ops-7/archives/556609",
+      "trust": "community",
+      "game": "bo7",
+      "interval_minutes": 60,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Pro Game Guides – Black Ops 6 codes",
+      "type": "web",
+      "url": "https://progameguides.com/call-of-duty-black-ops-6/call-of-duty-black-ops-6-codes/",
+      "trust": "community",
+      "game": "bo6",
+      "interval_minutes": 60,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Timesaver – Call of Duty redeem codes (real vs fake)",
+      "type": "web",
+      "url": "https://timesaver.gg/blog/call-of-duty-redeem-codes",
+      "trust": "community",
+      "game": "auto",
+      "interval_minutes": 60,
+      "notes": "Tracks which mainline codes are real; flags fake lists.",
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Activision support – Modern Warfare 4 bonus content & promotions",
+      "type": "web",
+      "url": "https://support.activision.com/modern-warfare-4/articles/modern-warfare-4-bonus-content",
+      "trust": "official",
+      "game": "mw4",
+      "interval_minutes": 360,
+      "notes": "Official list of promotions and where their codes are redeemed.",
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Activision support – Black Ops 7 bonus content & promotions",
+      "type": "web",
+      "url": "https://support.activision.com/black-ops-7/articles/black-ops-7-bonus-content",
+      "trust": "official",
+      "game": "bo7",
+      "interval_minutes": 360,
+      "notes": "Official list of promotions and where their codes are redeemed.",
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Activision support – Black Ops 6 bonus content & promotions",
+      "type": "web",
+      "url": "https://support.activision.com/black-ops-6/articles/black-ops-6-bonus-content",
+      "trust": "official",
+      "game": "bo6",
+      "interval_minutes": 360,
+      "notes": "Official list of promotions and where their codes are redeemed.",
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Activision support – Modern Warfare III bonus content & promotions",
+      "type": "web",
+      "url": "https://support.activision.com/modern-warfare-iii/articles/modern-warfare-iii-bonus-content",
+      "trust": "official",
+      "game": "mw3",
+      "interval_minutes": 360,
+      "notes": "Official list of promotions and where their codes are redeemed.",
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Google News search – Call of Duty codes (all titles)",
+      "type": "google_news",
+      "query": "\"Call of Duty\" (Warzone OR \"Black Ops 7\" OR \"Modern Warfare 4\" OR \"Black Ops 6\") \"redeem code\"",
+      "days": 3,
+      "trust": "unverified",
+      "game": "auto",
+      "interval_minutes": 60,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "YouTube – Call of Duty (official)",
+      "type": "youtube",
+      "channel_id": "UC9YydG57epLqxA9cTzZXSeQ",
+      "trust": "official",
+      "game": "auto",
+      "interval_minutes": 60,
+      "enabled": true,
+      "regions": [
+        "Global"
+      ]
+    },
+    {
+      "name": "Nerdschalk – Call of Duty: Warzone codes",
+      "type": "web",
+      "url": "https://nerdschalk.com/call-of-duty-warzone-codes/",
+      "trust": "community",
+      "interval_minutes": 20,
+      "game": "warzone",
+      "enabled": true
+    },
+    {
+      "name": "Google News search – Warzone codes",
+      "type": "google_news",
+      "query": "\"Warzone\" \"redeem code\" OR \"promo code\"",
+      "days": 3,
+      "trust": "unverified",
+      "interval_minutes": 45,
+      "game": "warzone",
+      "enabled": true
+    },
+    {
+      "name": "Google News search – Black Ops 7 codes",
+      "type": "google_news",
+      "query": "\"Black Ops 7\" redeem code",
+      "days": 3,
+      "trust": "unverified",
+      "interval_minutes": 45,
+      "game": "bo7",
+      "enabled": true
+    },
+    {
+      "name": "Google News search – Modern Warfare 4 codes",
+      "type": "google_news",
+      "query": "\"Modern Warfare 4\" redeem code",
+      "days": 3,
+      "trust": "unverified",
+      "interval_minutes": 45,
+      "game": "mw4",
+      "enabled": true
+    },
+    {
+      "name": "Google News search – Black Ops 6 codes",
+      "type": "google_news",
+      "query": "\"Black Ops 6\" redeem code",
+      "days": 3,
+      "trust": "unverified",
+      "interval_minutes": 45,
+      "game": "bo6",
+      "enabled": true
+    }
+  ],
+  "runtime": {},
+  "discord": {
+    "enabled": true,
+    "post_new": true,
+    "new_codes": "all",
+    "post_updates": true,
+    "post_list_on_connect": true,
+    "list_max": 25,
+    "include_garena": true,
+    "mention": "",
+    "username": "CODM Redemption Hunter"
+  },
+  "meta": {
+    "update_url": "",
+    "_help": "Optional https:// address of a newer data/meta.json (e.g. the raw file in your GitHub repo). Used by 'Check for newer builds'."
+  },
+  "research": {
+    "respect_robots_txt": true,
+    "max_pages": 14,
+    "delay_seconds": 1.5,
+    "max_images_per_page": 4,
+    "max_images_per_run": 20,
+    "max_renders_per_run": 3,
+    "pages": {},
+    "settings_pages": {},
+    "_help": "Default sites are in data/research_sources.json (AI helper → 🌐 Research sources to switch them on/off or add your own). 'pages' adds exact pages per game. Sites whose robots.txt asks tools not to read them (e.g. Reddit) are skipped.",
+    "save_screenshots": true,
+    "screenshot_library_mb": 500,
+    "use_catalog": true,
+    "max_settings_pages": 8,
+    "crawl_links_per_site": 3,
+    "disabled_sources": [],
+    "enabled_sources": [],
+    "custom_sources": []
+  },
+  "community": {
+    "repo": "",
+    "following": [],
+    "_help": "Your community builds repo on GitHub (owner/name). See community/README.md."
+  },
+  "patches": {
+    "games": [
+      "mw4",
+      "warzone",
+      "bo7",
+      "bo6",
+      "codm"
+    ],
+    "check_hours": 6,
+    "news_feed": true,
+    "news_days": 14,
+    "auto_research": true
+  },
+  "push": {
+    "events": {
+      "codes": true,
+      "patch": true,
+      "community": true
+    }
+  },
+  "player": {
+    "input": "controller",
+    "playstyle": "slayer",
+    "mode": "multiplayer"
+  },
+  "stats": {
+    "health": {},
+    "_help": "Total health per game for TTK, e.g. {\"warzone\": 250}. Blank = built-in defaults."
+  }
+}

@@ -1,0 +1,1003 @@
+{
+ "schema": 1,
+ "_help": "Default research sources for builds & settings. 'games': which games each site covers; 'kinds': builds / settings / stats / pro; 'crawl': start at this page and follow links to the selected game's build or settings pages; {fandom}/{ign}/{steam}/{pcgw} are filled from 'titles'. Turn sites on or off, or add your own, in the app (AI helper → 📚 Research sources).",
+ "sources": [
+  {
+   "name": "CODMunity",
+   "url": "https://codmunity.gg/",
+   "offers": "Daily S-to-D tier lists, pick rates and pro loadouts (Warzone, MW4, BO7, BO6)",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "WZStats",
+   "url": "https://wzstats.gg/",
+   "offers": "Weapons and single attachments ranked by pick rate, K/D and mode",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds",
+    "stats"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "WZHUB",
+   "url": "https://wzhub.gg/",
+   "offers": "Meta loadouts by engagement range, with interactive maps",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Warzone Loadout",
+   "url": "https://warzoneloadout.games/",
+   "offers": "Meta builds for Battle Royale, Resurgence, Ranked and sniper support",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "The CoD Locker",
+   "url": "https://thecodlocker.com/",
+   "offers": "CDL pro classes, weapon builds and tournament setups",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds",
+    "pro"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "BestLoadout",
+   "url": "https://bestloadout.com/",
+   "offers": "Patch-updated classes for Warzone, Multiplayer and CODM",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2",
+    "codm"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Charlie INTEL",
+   "url": "https://www.charlieintel.com/",
+   "offers": "Daily meta loadout guides, unlock requirements, patch balance breakdowns",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2",
+    "codm"
+   ],
+   "kinds": [
+    "builds",
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Dexerto – Call of Duty",
+   "url": "https://www.dexerto.com/call-of-duty/",
+   "offers": "Trending pro loadouts, low-recoil builds, seasonal meta shifts",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds",
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Dot Esports – Call of Duty",
+   "url": "https://dotesports.com/call-of-duty",
+   "offers": "Competitive class setups, perk picks, Ranked meta guides",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds",
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "GamesAtlas",
+   "url": "https://www.gamesatlas.com/",
+   "offers": "Visual weapon blueprint database, attachment unlock trees, base stats",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds",
+    "stats"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "r/CODWarzone",
+   "url": "https://www.reddit.com/r/CODWarzone/",
+   "offers": "Live patch meta talk, loadout spreadsheets, streamer classes",
+   "games": [
+    "warzone",
+    "mw4",
+    "bo7"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": false,
+   "priority": 3,
+   "enabled": true,
+   "note": "Reddit's robots.txt asks tools not to read it, so it's skipped automatically — open it yourself."
+  },
+  {
+   "name": "TrueGameData",
+   "url": "https://www.truegamedata.com/",
+   "offers": "Exact TTK, damage drop-off, ADS speed and attachment trade-offs",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "stats"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Sym.gg",
+   "url": "https://sym.gg/",
+   "offers": "Datamined weapon stats, hidden recoil patterns, sprint-to-fire",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "stats"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "CODMunity weapon stats",
+   "url": "https://codmunity.gg/weapon-stats/warzone",
+   "offers": "Side-by-side TTK, recoil, flinch and mobility comparator",
+   "games": [
+    "warzone",
+    "mw4"
+   ],
+   "kinds": [
+    "stats"
+   ],
+   "crawl": false,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "XbitLabs TTK calculator",
+   "url": "https://www.xbitlabs.com/ttk-calculator/",
+   "offers": "Time-to-kill / shots-to-kill calculator",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "stats"
+   ],
+   "crawl": false,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "YouTube",
+   "url": "https://www.youtube.com/",
+   "offers": "Frame-by-frame weapon tests and post-patch breakdowns",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2",
+    "codm"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": false,
+   "priority": 3,
+   "enabled": false,
+   "note": "Videos can't be read as text. Add creators as 'youtube' code sources to read their video descriptions."
+  },
+  {
+   "name": "ReviByte CODM hub",
+   "url": "https://www.revibyte.blog/codm/",
+   "offers": "CODM tier lists, sensitivity codes, Ranked MP/BR Gunsmith setups",
+   "games": [
+    "codm"
+   ],
+   "kinds": [
+    "builds",
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "zilliongamer – CODM Gunsmith",
+   "url": "https://zilliongamer.com/call-of-duty-mobile/c/weapon-guide/cod-mobile-gunsmith-weapons-setup",
+   "offers": "Gunsmith attachment pros/cons, weapon stats and setups",
+   "games": [
+    "codm"
+   ],
+   "kinds": [
+    "builds",
+    "stats"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "r/CODMobile_Loadouts",
+   "url": "https://www.reddit.com/r/CODMobile_Loadouts/",
+   "offers": "Gunsmith build requests and shares (Ranked MP, BR)",
+   "games": [
+    "codm"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": false,
+   "priority": 3,
+   "enabled": true,
+   "note": "Reddit's robots.txt asks tools not to read it, so it's skipped automatically — open it yourself."
+  },
+  {
+   "name": "r/CallOfDutyMobile",
+   "url": "https://www.reddit.com/r/CallOfDutyMobile/",
+   "offers": "Patch notes, sensitivity settings, weapon stat sheets",
+   "games": [
+    "codm"
+   ],
+   "kinds": [
+    "settings",
+    "builds"
+   ],
+   "crawl": false,
+   "priority": 3,
+   "enabled": true,
+   "note": "Reddit's robots.txt asks tools not to read it, so it's skipped automatically — open it yourself."
+  },
+  {
+   "name": "Pocket Tactics – CODM",
+   "url": "https://www.pockettactics.com/",
+   "offers": "Monthly CODM weapon rankings, loadouts, sensitivity presets",
+   "games": [
+    "codm"
+   ],
+   "kinds": [
+    "builds",
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "BlueStacks – CODM",
+   "url": "https://www.bluestacks.com/",
+   "offers": "CODM emulator keymapping, graphics settings, Gunsmith guides",
+   "games": [
+    "codm"
+   ],
+   "kinds": [
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Liquipedia – CoD (incl. CODM)",
+   "url": "https://liquipedia.net/callofduty/Main_Page",
+   "offers": "Pro rosters, hardware, rulesets and tournament meta",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2",
+    "codm"
+   ],
+   "kinds": [
+    "pro",
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "CDL player settings",
+   "url": "https://callofdutyleague.com/en-us/player-settings",
+   "offers": "Official CDL pro stick sensitivities, ADS multipliers, button layouts",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "settings",
+    "pro"
+   ],
+   "crawl": false,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "ProSettings.net",
+   "url": "https://prosettings.net/",
+   "offers": "Pro FOV, DPI, deadzones, graphics and keybinds (CDL & Warzone)",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "settings",
+    "pro"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Breaking Point",
+   "url": "https://www.breakingpoint.gg/",
+   "offers": "CDL stats, competitive restrictions (GAs), tournament weapon meta",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "pro",
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "r/CoDCompetitive",
+   "url": "https://www.reddit.com/r/CoDCompetitive/",
+   "offers": "CDL pro settings, deadzones, ranked classes",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "settings"
+   ],
+   "crawl": false,
+   "priority": 3,
+   "enabled": true,
+   "note": "Reddit's robots.txt asks tools not to read it, so it's skipped automatically — open it yourself."
+  },
+  {
+   "name": "Keychron – Warzone KBM settings",
+   "url": "https://www.keychron.com/blogs/news/best-keyboard-and-mouse-settings-for-warzone",
+   "offers": "Keyboard/mouse keybinds, DPI and FOV for Warzone",
+   "games": [
+    "warzone",
+    "mw4",
+    "bo7"
+   ],
+   "kinds": [
+    "settings"
+   ],
+   "crawl": false,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Aiming.Pro",
+   "url": "https://www.aiming.pro/",
+   "offers": "Mouse sensitivity / cm-per-360 conversion across CoD titles",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2",
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1"
+   ],
+   "kinds": [
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Mouse-Sensitivity.com",
+   "url": "https://www.mouse-sensitivity.com/",
+   "offers": "Hipfire and ADS sensitivity conversion between CoD engines",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2",
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1"
+   ],
+   "kinds": [
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Mobalytics",
+   "url": "https://mobalytics.gg/",
+   "offers": "Audio, graphics, deadzone and FOV optimization guides",
+   "games": [
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Call of Duty Wiki (Fandom)",
+   "url": "https://callofduty.fandom.com/wiki/{fandom}",
+   "offers": "Weapon damage stats, attachment unlocks and perks for every title",
+   "games": [
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1",
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "builds",
+    "stats"
+   ],
+   "crawl": true,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "IGN wikis",
+   "url": "https://www.ign.com/wikis/{ign}",
+   "offers": "Create-a-Class templates, weapon guides, Zombies upgrades for older titles",
+   "games": [
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "GameSpot",
+   "url": "https://www.gamespot.com/",
+   "offers": "Archived weapon damage charts and class guides",
+   "games": [
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "GameFAQs",
+   "url": "https://gamefaqs.gamespot.com/",
+   "offers": "Archived multiplayer weapon guides, recoil charts, class setups",
+   "games": [
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1"
+   ],
+   "kinds": [
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Steam Community guides",
+   "url": "https://steamcommunity.com/app/{steam}/guides/",
+   "offers": "PC configs, FOV, classic class builds for older PC ports",
+   "games": [
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1"
+   ],
+   "kinds": [
+    "settings",
+    "builds"
+   ],
+   "crawl": true,
+   "priority": 2,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "PCGamingWiki",
+   "url": "https://www.pcgamingwiki.com/wiki/{pcgw}",
+   "offers": "FOV fixes, mouse acceleration, config file locations for every PC CoD",
+   "games": [
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1",
+    "mw4",
+    "warzone",
+    "bo7",
+    "bo6",
+    "mw3",
+    "mw2"
+   ],
+   "kinds": [
+    "settings"
+   ],
+   "crawl": false,
+   "priority": 1,
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "name": "Speedrun.com",
+   "url": "https://www.speedrun.com/",
+   "offers": "Movement mechanics, loadouts and engine settings used by speedrunners",
+   "games": [
+    "vanguard",
+    "bocw",
+    "mw2019",
+    "bo4",
+    "wwii",
+    "iw",
+    "bo3",
+    "aw",
+    "ghosts",
+    "bo2",
+    "mw3_2011",
+    "bo1",
+    "mw2_2009",
+    "waw",
+    "cod4",
+    "cod3",
+    "cod2",
+    "cod1"
+   ],
+   "kinds": [
+    "settings"
+   ],
+   "crawl": true,
+   "priority": 3,
+   "enabled": true,
+   "note": ""
+  }
+ ],
+ "titles": {
+  "cod1": {
+   "fandom": "Call_of_Duty",
+   "pcgw": "Call_of_Duty",
+   "steam": "2620"
+  },
+  "cod2": {
+   "fandom": "Call_of_Duty_2",
+   "pcgw": "Call_of_Duty_2",
+   "steam": "2630"
+  },
+  "cod3": {
+   "fandom": "Call_of_Duty_3"
+  },
+  "cod4": {
+   "fandom": "Call_of_Duty_4:_Modern_Warfare",
+   "pcgw": "Call_of_Duty_4:_Modern_Warfare",
+   "steam": "7940",
+   "ign": "call-of-duty-4-modern-warfare"
+  },
+  "waw": {
+   "fandom": "Call_of_Duty:_World_at_War",
+   "pcgw": "Call_of_Duty:_World_at_War",
+   "steam": "10090",
+   "ign": "call-of-duty-world-at-war"
+  },
+  "mw2_2009": {
+   "fandom": "Call_of_Duty:_Modern_Warfare_2",
+   "pcgw": "Call_of_Duty:_Modern_Warfare_2",
+   "steam": "10180",
+   "ign": "call-of-duty-modern-warfare-2"
+  },
+  "bo1": {
+   "fandom": "Call_of_Duty:_Black_Ops",
+   "pcgw": "Call_of_Duty:_Black_Ops",
+   "steam": "42700",
+   "ign": "call-of-duty-black-ops"
+  },
+  "mw3_2011": {
+   "fandom": "Call_of_Duty:_Modern_Warfare_3",
+   "pcgw": "Call_of_Duty:_Modern_Warfare_3",
+   "steam": "115300",
+   "ign": "call-of-duty-modern-warfare-3"
+  },
+  "bo2": {
+   "fandom": "Call_of_Duty:_Black_Ops_II",
+   "pcgw": "Call_of_Duty:_Black_Ops_II",
+   "steam": "202970",
+   "ign": "call-of-duty-black-ops-2"
+  },
+  "ghosts": {
+   "fandom": "Call_of_Duty:_Ghosts",
+   "pcgw": "Call_of_Duty:_Ghosts",
+   "steam": "209160",
+   "ign": "call-of-duty-ghosts"
+  },
+  "aw": {
+   "fandom": "Call_of_Duty:_Advanced_Warfare",
+   "pcgw": "Call_of_Duty:_Advanced_Warfare",
+   "steam": "209650",
+   "ign": "call-of-duty-advanced-warfare"
+  },
+  "bo3": {
+   "fandom": "Call_of_Duty:_Black_Ops_III",
+   "pcgw": "Call_of_Duty:_Black_Ops_III",
+   "steam": "311210",
+   "ign": "call-of-duty-black-ops-3"
+  },
+  "iw": {
+   "fandom": "Call_of_Duty:_Infinite_Warfare",
+   "pcgw": "Call_of_Duty:_Infinite_Warfare",
+   "steam": "292730",
+   "ign": "call-of-duty-infinite-warfare"
+  },
+  "wwii": {
+   "fandom": "Call_of_Duty:_WWII",
+   "pcgw": "Call_of_Duty:_WWII",
+   "steam": "476600",
+   "ign": "call-of-duty-wwii"
+  },
+  "bo4": {
+   "fandom": "Call_of_Duty:_Black_Ops_4",
+   "pcgw": "Call_of_Duty:_Black_Ops_4",
+   "ign": "call-of-duty-black-ops-4"
+  },
+  "mw2019": {
+   "fandom": "Call_of_Duty:_Modern_Warfare_(2019)",
+   "pcgw": "Call_of_Duty:_Modern_Warfare_(2019)",
+   "ign": "call-of-duty-modern-warfare"
+  },
+  "bocw": {
+   "fandom": "Call_of_Duty:_Black_Ops_Cold_War",
+   "pcgw": "Call_of_Duty:_Black_Ops_Cold_War",
+   "ign": "call-of-duty-black-ops-cold-war"
+  },
+  "vanguard": {
+   "fandom": "Call_of_Duty:_Vanguard",
+   "pcgw": "Call_of_Duty:_Vanguard",
+   "ign": "call-of-duty-vanguard"
+  },
+  "mw2": {
+   "fandom": "Call_of_Duty:_Modern_Warfare_II",
+   "pcgw": "Call_of_Duty:_Modern_Warfare_II"
+  },
+  "mw3": {
+   "fandom": "Call_of_Duty:_Modern_Warfare_III",
+   "pcgw": "Call_of_Duty:_Modern_Warfare_III"
+  },
+  "bo6": {
+   "fandom": "Call_of_Duty:_Black_Ops_6",
+   "pcgw": "Call_of_Duty:_Black_Ops_6"
+  },
+  "bo7": {
+   "fandom": "Call_of_Duty:_Black_Ops_7",
+   "pcgw": "Call_of_Duty:_Black_Ops_7"
+  },
+  "mw4": {
+   "fandom": "Call_of_Duty:_Modern_Warfare_4",
+   "pcgw": "Call_of_Duty:_Modern_Warfare_4"
+  },
+  "warzone": {
+   "fandom": "Call_of_Duty:_Warzone",
+   "pcgw": "Call_of_Duty:_Warzone"
+  }
+ }
+}

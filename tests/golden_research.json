@@ -1,0 +1,651 @@
+{
+ "builds": {
+  "m4": [
+   {
+    "weapon": "M4",
+    "attachments": [
+     [
+      "Optic",
+      "Corio Eagleseye 2.5x"
+     ],
+     [
+      "Muzzle",
+      "FSS IS300"
+     ],
+     [
+      "Barrel",
+      "Tempus 22.5\" Barrel"
+     ],
+     [
+      "Underbarrel",
+      "DR-6 Handstop"
+     ],
+     [
+      "Magazine",
+      "45 Round Mag"
+     ]
+    ],
+    "via": "text"
+   },
+   {
+    "weapon": "M4",
+    "attachments": [
+     [
+      "Optic",
+      "Slate Reflector"
+     ],
+     [
+      "Barrel",
+      "Long Barrel"
+     ],
+     [
+      "Stock",
+      "Agile Stock"
+     ],
+     [
+      "Perks",
+      "Double Time"
+     ]
+    ],
+    "via": "text"
+   },
+   {
+    "weapon": "Kilo 141",
+    "attachments": [
+     [
+      "Optic",
+      "3x"
+     ],
+     [
+      "Ammunition",
+      "60 Round"
+     ],
+     [
+      "Rear Grip",
+      "Stippled"
+     ],
+     [
+      "Perks",
+      "Ghost"
+     ]
+    ],
+    "via": "text"
+   }
+  ]
+ },
+ "settings": [
+  {
+   "section": "View",
+   "setting": "Field of View",
+   "value": "110",
+   "why": "",
+   "via": "text"
+  },
+  {
+   "section": "View",
+   "setting": "Motion Blur",
+   "value": "Off",
+   "why": "",
+   "via": "text"
+  },
+  {
+   "section": "View",
+   "setting": "Film Grain",
+   "value": "0.00",
+   "why": "",
+   "via": "text"
+  },
+  {
+   "section": "Controller",
+   "setting": "Aim Assist Type",
+   "value": "Precision",
+   "why": "",
+   "via": "text"
+  },
+  {
+   "section": "Controller",
+   "setting": "Left Stick Min Input Deadzone",
+   "value": "3",
+   "why": "",
+   "via": "text"
+  },
+  {
+   "section": "Controller",
+   "setting": "Response Curve Type",
+   "value": "Dynamic",
+   "why": "",
+   "via": "text"
+  },
+  {
+   "section": "Graphics",
+   "setting": "Bloom",
+   "value": "Off",
+   "why": "",
+   "via": "text"
+  },
+  {
+   "section": "Audio",
+   "setting": "Audio Mix",
+   "value": "Headphones Bass Boost",
+   "why": "",
+   "via": "text"
+  },
+  {
+   "section": "Sensitivity",
+   "setting": "DPI",
+   "value": "800",
+   "why": "",
+   "via": "text"
+  }
+ ],
+ "catalog": {
+  "mw4:builds": [
+   {
+    "name": "CODMunity",
+    "url": "https://codmunity.gg/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "WZStats",
+    "url": "https://wzstats.gg/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "WZHUB",
+    "url": "https://wzhub.gg/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "Warzone Loadout",
+    "url": "https://warzoneloadout.games/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "BestLoadout",
+    "url": "https://bestloadout.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "Call of Duty Wiki (Fandom)",
+    "url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Modern_Warfare_4",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "The CoD Locker",
+    "url": "https://thecodlocker.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "Charlie INTEL",
+    "url": "https://www.charlieintel.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "Dexerto – Call of Duty",
+    "url": "https://www.dexerto.com/call-of-duty/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "Dot Esports – Call of Duty",
+    "url": "https://dotesports.com/call-of-duty",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "GamesAtlas",
+    "url": "https://www.gamesatlas.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   },
+   {
+    "name": "r/CODWarzone",
+    "url": "https://www.reddit.com/r/CODWarzone/",
+    "crawl": false,
+    "game_specific": false,
+    "priority": 3,
+    "note": "Reddit's robots.txt asks tools not to read it, so it's skipped automatically — open it yourself."
+   },
+   {
+    "name": "Breaking Point",
+    "url": "https://www.breakingpoint.gg/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   }
+  ],
+  "codm:settings": [
+   {
+    "name": "ReviByte CODM hub",
+    "url": "https://www.revibyte.blog/codm/",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "Charlie INTEL",
+    "url": "https://www.charlieintel.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "Pocket Tactics – CODM",
+    "url": "https://www.pockettactics.com/",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "r/CallOfDutyMobile",
+    "url": "https://www.reddit.com/r/CallOfDutyMobile/",
+    "crawl": false,
+    "game_specific": true,
+    "priority": 3,
+    "note": "Reddit's robots.txt asks tools not to read it, so it's skipped automatically — open it yourself."
+   },
+   {
+    "name": "BlueStacks – CODM",
+    "url": "https://www.bluestacks.com/",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 3,
+    "note": ""
+   },
+   {
+    "name": "Liquipedia – CoD (incl. CODM)",
+    "url": "https://liquipedia.net/callofduty/Main_Page",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   }
+  ],
+  "cod4:builds": [
+   {
+    "name": "Call of Duty Wiki (Fandom)",
+    "url": "https://callofduty.fandom.com/wiki/Call_of_Duty_4:_Modern_Warfare",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "IGN wikis",
+    "url": "https://www.ign.com/wikis/call-of-duty-4-modern-warfare",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "Steam Community guides",
+    "url": "https://steamcommunity.com/app/7940/guides/",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "GameSpot",
+    "url": "https://www.gamespot.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   },
+   {
+    "name": "GameFAQs",
+    "url": "https://gamefaqs.gamespot.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   }
+  ],
+  "warzone:stats": [
+   {
+    "name": "WZStats",
+    "url": "https://wzstats.gg/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "Call of Duty Wiki (Fandom)",
+    "url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Warzone",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "TrueGameData",
+    "url": "https://www.truegamedata.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "Sym.gg",
+    "url": "https://sym.gg/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "CODMunity weapon stats",
+    "url": "https://codmunity.gg/weapon-stats/warzone",
+    "crawl": false,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "GamesAtlas",
+    "url": "https://www.gamesatlas.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   },
+   {
+    "name": "XbitLabs TTK calculator",
+    "url": "https://www.xbitlabs.com/ttk-calculator/",
+    "crawl": false,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   }
+  ],
+  "bo7:pro": [
+   {
+    "name": "CDL player settings",
+    "url": "https://callofdutyleague.com/en-us/player-settings",
+    "crawl": false,
+    "game_specific": false,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "ProSettings.net",
+    "url": "https://prosettings.net/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "The CoD Locker",
+    "url": "https://thecodlocker.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "Liquipedia – CoD (incl. CODM)",
+    "url": "https://liquipedia.net/callofduty/Main_Page",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   },
+   {
+    "name": "Breaking Point",
+    "url": "https://www.breakingpoint.gg/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   }
+  ],
+  "waw:settings": [
+   {
+    "name": "PCGamingWiki",
+    "url": "https://www.pcgamingwiki.com/wiki/Call_of_Duty:_World_at_War",
+    "crawl": false,
+    "game_specific": true,
+    "priority": 1,
+    "note": ""
+   },
+   {
+    "name": "Steam Community guides",
+    "url": "https://steamcommunity.com/app/10090/guides/",
+    "crawl": true,
+    "game_specific": true,
+    "priority": 2,
+    "note": ""
+   },
+   {
+    "name": "Aiming.Pro",
+    "url": "https://www.aiming.pro/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   },
+   {
+    "name": "Mouse-Sensitivity.com",
+    "url": "https://www.mouse-sensitivity.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   },
+   {
+    "name": "Speedrun.com",
+    "url": "https://www.speedrun.com/",
+    "crawl": true,
+    "game_specific": false,
+    "priority": 3,
+    "note": ""
+   }
+  ]
+ },
+ "links": {
+  "a": [
+   "https://sub.site.gg/modern-warfare-4/weapon-guns",
+   "https://www.site.gg/mw4/best-loadouts"
+  ],
+  "b": [
+   "https://sub.site.gg/modern-warfare-4/weapon-guns",
+   "https://www.site.gg/mw4/best-loadouts",
+   "https://www.site.gg/news/bo6-meta-tier-list",
+   "https://www.site.gg/meta"
+  ],
+  "c": [
+   "https://www.site.gg/news/bo6-meta-tier-list"
+  ]
+ },
+ "cross": [
+  {
+   "weapon": "M4",
+   "sites": 2,
+   "domains": [
+    "a.com",
+    "b.com"
+   ],
+   "verified": true,
+   "attachments": [
+    [
+     "Optic",
+     "Corio",
+     3
+    ],
+    [
+     "Muzzle",
+     "Other",
+     2
+    ],
+    [
+     "Barrel",
+     "Tempus",
+     1
+    ],
+    [
+     "Stock",
+     "Agile",
+     1
+    ]
+   ],
+   "perks": [
+    "Double Time",
+    "Ghost"
+   ],
+   "equipment": [],
+   "class": "AR",
+   "role": "",
+   "via": [
+    "ai",
+    "image",
+    "text"
+   ],
+   "sources": [
+    {
+     "url": "https://a.com/x",
+     "via": "text",
+     "image": "",
+     "file": ""
+    },
+    {
+     "url": "https://www.b.com/y",
+     "via": "ai",
+     "image": "",
+     "file": ""
+    },
+    {
+     "url": "https://a.com/z",
+     "via": "image",
+     "image": "https://a.com/i.png",
+     "file": ""
+    }
+   ],
+   "curated_match": "1/2 attachments match the curated build"
+  },
+  {
+   "weapon": "Kilo 141",
+   "sites": 1,
+   "domains": [
+    "c.com"
+   ],
+   "verified": false,
+   "attachments": [
+    [
+     "Optic",
+     "3x",
+     1
+    ],
+    [
+     "Ammunition",
+     "60",
+     1
+    ]
+   ],
+   "perks": [],
+   "equipment": [],
+   "class": "",
+   "role": "",
+   "via": [
+    "text"
+   ],
+   "sources": [
+    {
+     "url": "https://c.com/",
+     "via": "text",
+     "image": "",
+     "file": ""
+    }
+   ],
+   "curated_match": null
+  }
+ ],
+ "merge": [
+  {
+   "section": "General",
+   "setting": "DPI",
+   "value": "800",
+   "votes": 1,
+   "sites": 1,
+   "why": "",
+   "sources": [
+    "https://a.com/2"
+   ],
+   "other_values": []
+  },
+  {
+   "section": "Graphics",
+   "setting": "Bloom",
+   "value": "Off",
+   "votes": 1,
+   "sites": 1,
+   "why": "",
+   "sources": [
+    "https://a.com/1"
+   ],
+   "other_values": []
+  },
+  {
+   "section": "View",
+   "setting": "Field of View",
+   "value": "110",
+   "votes": 2,
+   "sites": 3,
+   "why": "wider",
+   "sources": [
+    "https://a.com/1",
+    "https://b.com/1",
+    "https://c.com/1"
+   ],
+   "other_values": [
+    "105"
+   ]
+  }
+ ],
+ "slots": {
+  "optic": "Optic",
+  "Scope": "Optic",
+  "rear grip": "Rear Grip",
+  "Ammo": "Ammunition",
+  "apex attachment": "Apex",
+  "random slot name": "Random Slot Name",
+  "PERK 1": "Perk 1"
+ }
+}

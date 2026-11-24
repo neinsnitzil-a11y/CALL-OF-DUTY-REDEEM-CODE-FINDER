@@ -1,0 +1,9 @@
+*.bat text eol=crlf
+*.iss text eol=crlf
+*.rc text eol=crlf
+*.sh text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.ico binary
+*.png binary
+*.bmp binary

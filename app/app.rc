@@ -1,0 +1,24 @@
+// Windows icon and version info for the .exe
+IDI_ICON1 ICON "../assets/app.ico"
+
+1 VERSIONINFO
+FILEVERSION 6,4,3,0
+PRODUCTVERSION 6,4,3,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "COD Redemption Hunter (open source)"
+      VALUE "FileDescription", "COD Redemption Hunter"
+      VALUE "FileVersion", "6.4.3"
+      VALUE "ProductName", "COD Redemption Hunter"
+      VALUE "ProductVersion", "6.4.3"
+      VALUE "OriginalFilename", "CODRedemptionHunter.exe"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END

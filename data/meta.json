@@ -1,0 +1,2538 @@
+{
+ "schema": 1,
+ "updated": "2026-11-23",
+ "settings": {
+  "modern": {
+   "title": "Modern CoD (MW4, BO7, Warzone, BO6, MW3, MWII)",
+   "sections": [
+    {
+     "name": "Controller",
+     "items": [
+      [
+       "Aim assist",
+       "On (Default or Precision)",
+       "Keeps the slow-down and rotational help that controller aim relies on.",
+       "playhub"
+      ],
+      [
+       "Stick deadzone (min)",
+       "About 3 on each stick",
+       "Lower = more responsive. Raise it if your stick drifts.",
+       "playhub"
+      ],
+      [
+       "Vibration / trigger effect",
+       "Off",
+       "Rumble and resistance make small aim corrections harder.",
+       "beebom"
+      ],
+      [
+       "Sensitivity",
+       "Start at 6–8, ADS multiplier 1.00",
+       "General starting point — tune it in the Firing Range.",
+       ""
+      ]
+     ]
+    },
+    {
+     "name": "View",
+     "items": [
+      [
+       "Field of view",
+       "110 (lower if targets feel too small)",
+       "Wider view spots flanks; too wide shrinks targets.",
+       "playhub"
+      ],
+      [
+       "Motion blur (world + weapon)",
+       "Off",
+       "Blur hides enemies while you turn.",
+       "overgear"
+      ],
+      [
+       "Film grain / depth of field",
+       "0 / Off",
+       "Cleaner image, easier target spotting.",
+       ""
+      ]
+     ]
+    },
+    {
+     "name": "Graphics (PC)",
+     "items": [
+      [
+       "Ray tracing",
+       "Off",
+       "Big FPS cost for no competitive gain.",
+       "overgear"
+      ],
+      [
+       "Background shader preloading",
+       "On — re-run after every GPU driver update",
+       "Stops shader-compile stutter mid-match.",
+       "allthings"
+      ],
+      [
+       "Install drive",
+       "SSD",
+       "Hard drives cause texture-streaming hitches.",
+       "allthings_beta"
+      ],
+      [
+       "Display mode",
+       "Fullscreen (exclusive) if you can",
+       "Usually the lowest input lag.",
+       ""
+      ]
+     ]
+    },
+    {
+     "name": "Console",
+     "items": [
+      [
+       "TV picture mode",
+       "Game Mode",
+       "Cuts TV processing lag.",
+       "overgear"
+      ],
+      [
+       "Refresh rate",
+       "120 Hz if your TV supports it",
+       "Smoother aim and lower latency.",
+       "overgear"
+      ]
+     ]
+    }
+   ],
+   "sources": {
+    "playhub": "https://playhub.com/blog/call-of-duty/modern-warfare-4-best-settings-125625",
+    "beebom": "https://beebom.com/best-call-of-duty-modern-warfare-4-controller-settings/",
+    "overgear": "https://overgear.com/guides/call-of-duty/modern-warfare-4-best-settings/",
+    "allthings": "https://allthings.how/best-modern-warfare-4-pc-graphics-settings-every-option-explained/",
+    "allthings_beta": "https://allthings.how/?p=133716"
+   }
+  },
+  "codm": {
+   "title": "Call of Duty: Mobile",
+   "sections": [
+    {
+     "name": "Graphics & audio",
+     "items": [
+      [
+       "Graphics quality",
+       "Low",
+       "Max FPS matters more than visuals in MP and BR.",
+       "progameguides"
+      ],
+      [
+       "Frame rate",
+       "Max / Ultra (highest your phone offers)",
+       "Smoother tracking, lower input delay.",
+       "progameguides"
+      ],
+      [
+       "Depth of field, real-time shadows, bloom",
+       "Off",
+       "Clearer view and fewer FPS drops in Battle Royale.",
+       "codmguide"
+      ]
+     ]
+    },
+    {
+     "name": "Basic",
+     "items": [
+      [
+       "Aim assist",
+       "On",
+       "CODM's aim assist helps on touch screens.",
+       "dotesports"
+      ],
+      [
+       "Fire mode",
+       "AR & LMG: ADS · SMG: ADS or hip · Shotgun: hip",
+       "Per-weapon-type fire mode.",
+       "charlieintel"
+      ],
+      [
+       "Field of view",
+       "60–90 (start around 75)",
+       "Higher sees more, lower makes targets bigger.",
+       "esportsnet"
+      ],
+      [
+       "Mini-map opacity",
+       "100",
+       "Always see red dots.",
+       "charlieintel"
+      ]
+     ]
+    },
+    {
+     "name": "Sensitivity",
+     "items": [
+      [
+       "Rotation mode",
+       "Fixed speed",
+       "Predictable camera speed.",
+       "progameguides"
+      ],
+      [
+       "Sensitivity switch",
+       "Gradually switch while ADS",
+       "No sudden jump when you aim in.",
+       "progameguides"
+      ],
+      [
+       "Example (iFerg)",
+       "Standard 60 · ADS 88 · Tactical scope 129 · Sniper 80",
+       "A pro's numbers — copy them, then tune to your phone.",
+       "meinmmo"
+      ],
+      [
+       "Gyroscope",
+       "Optional — try it in BR",
+       "Fine aim by tilting the phone.",
+       "blix"
+      ]
+     ]
+    }
+   ],
+   "sources": {
+    "progameguides": "https://progameguides.com/call-of-duty/best-call-of-duty-mobile-settings/",
+    "codmguide": "https://eagle-tetra-pzb7.squarespace.com/tutorials/cod-mobile-best-settings-guide",
+    "dotesports": "https://dotesports.com/news/the-best-call-of-duty-mobile-settings",
+    "charlieintel": "https://www.charlieintel.com/call-of-duty-mobile/best-cod-mobile-settings-multiplayer-145921/",
+    "esportsnet": "https://www.esports.net/wiki/guides/best-cod-mobile-settings",
+    "meinmmo": "https://mein-mmo.de/en/5-settings-you-must-activate-in-cod-mobile,581027",
+    "blix": "https://blix.gg/?p=3527"
+   }
+  },
+  "classic": {
+   "title": "Older CoD (2003–2019)",
+   "sections": [
+    {
+     "name": "General",
+     "items": [
+      [
+       "Field of view (PC)",
+       "As high as the game allows (90+)",
+       "Older games default narrow.",
+       ""
+      ],
+      [
+       "Motion blur / film grain",
+       "Off where available",
+       "Cleaner image.",
+       ""
+      ],
+      [
+       "Aim assist (console)",
+       "On",
+       "Standard for controller play.",
+       ""
+      ],
+      [
+       "V-sync",
+       "Off, cap FPS just under your refresh rate",
+       "Lower input lag without tearing.",
+       ""
+      ]
+     ]
+    }
+   ],
+   "sources": {}
+  }
+ },
+ "games": {
+  "mw4": {
+   "season": "Season 1 (Nov 2026)",
+   "settings": "modern",
+   "note": "Modern Warfare 4 launched 23 Oct 2026. Builds use the Apex attachment at max weapon level where listed.",
+   "builds": [
+    {
+     "weapon": "ISO Nightshade",
+     "class": "SMG",
+     "role": "Rush / close range",
+     "tier": "S",
+     "attachments": [
+      [
+       "Muzzle",
+       "FSS Crackdown"
+      ],
+      [
+       "Barrel",
+       "ZLR Carbon-900"
+      ],
+      [
+       "Laser",
+       "Schlager Visiv-5"
+      ],
+      [
+       "Rear grip",
+       "Demo STP-1"
+      ],
+      [
+       "Apex",
+       "ISO Trace"
+      ]
+     ],
+     "perks": [
+      "Quick Fix",
+      "Blood Rush",
+      "Battle Hardened"
+     ],
+     "equipment": [
+      "Flash Grenade",
+      "Frag Grenade",
+      "Portable Radar"
+     ],
+     "secondary": "Krait P68",
+     "note": "",
+     "source": "mw4intel.app (Season 1, after the 13 Nov tuning)",
+     "source_url": "https://mw4intel.app/best-loadouts",
+     "as_of": "2026-11-16"
+    },
+    {
+     "weapon": "KG-7 Vulcan",
+     "class": "Sniper",
+     "role": "Long range (Overkill with ISO)",
+     "tier": "S",
+     "attachments": [
+      [
+       "Barrel",
+       "Haebang Naseon V.5 26\""
+      ],
+      [
+       "Bolt",
+       "KT76 Light Bolt"
+      ],
+      [
+       "Optic",
+       "Corvus Avis-0"
+      ],
+      [
+       "Stock",
+       "TT G76-RP"
+      ],
+      [
+       "Comb",
+       "Haebang YNC-45"
+      ],
+      [
+       "Apex",
+       "KG-7 Drillcharge"
+      ]
+     ],
+     "perks": [
+      "Overkill",
+      "Blood Rush",
+      "Battle Hardened"
+     ],
+     "equipment": [
+      "Smoke Grenade",
+      "Sticky Grenade",
+      "Trophy System"
+     ],
+     "secondary": "ISO Nightshade",
+     "note": "",
+     "source": "mw4intel.app (Season 1, after the 13 Nov tuning)",
+     "source_url": "https://mw4intel.app/best-loadouts",
+     "as_of": "2026-11-16"
+    },
+    {
+     "weapon": "VEL 46",
+     "class": "SMG",
+     "role": "Close range shredder",
+     "tier": "S",
+     "attachments": [
+      [
+       "Muzzle",
+       "XRK Herder 40"
+      ],
+      [
+       "Barrel",
+       "VB-46 Series 11"
+      ],
+      [
+       "Laser",
+       "XRK Clutch-LS"
+      ],
+      [
+       "Rear grip",
+       "V46 R-Skel"
+      ],
+      [
+       "Underbarrel",
+       "FSS Fireline Grip"
+      ],
+      [
+       "Apex",
+       "VEL 46 Snap"
+      ]
+     ],
+     "perks": [
+      "Ghost",
+      "Fast Hands",
+      "Battle Hardened"
+     ],
+     "equipment": [
+      "Flash Grenade",
+      "Sticky Grenade",
+      "Portable Radar"
+     ],
+     "secondary": "Krait P68",
+     "note": "",
+     "source": "mw4intel.app (Season 1, after the 13 Nov tuning)",
+     "source_url": "https://mw4intel.app/best-loadouts",
+     "as_of": "2026-11-16"
+    },
+    {
+     "weapon": "Cronen Osprey",
+     "class": "Assault rifle",
+     "role": "Suppressed all-rounder",
+     "tier": "S",
+     "attachments": [
+      [
+       "Muzzle",
+       "XRK Mil-Tac Suppressor"
+      ],
+      [
+       "Underbarrel",
+       "FSS Tac90 Grip"
+      ],
+      [
+       "Magazine",
+       "60 Round"
+      ],
+      [
+       "Rear grip",
+       "Cronen 56"
+      ],
+      [
+       "Ammo",
+       "5.56 NATO Overpressured"
+      ],
+      [
+       "Apex",
+       "Cronen Helix Mk. II"
+      ]
+     ],
+     "perks": [
+      "Ghost",
+      "Blood Rush",
+      "Battle Hardened"
+     ],
+     "equipment": [
+      "Flash Grenade",
+      "Frag Grenade",
+      "Trophy System"
+     ],
+     "secondary": "Krait P68",
+     "note": "",
+     "source": "mw4intel.app (Season 1, after the 13 Nov tuning)",
+     "source_url": "https://mw4intel.app/best-loadouts",
+     "as_of": "2026-11-16"
+    },
+    {
+     "weapon": "M4",
+     "class": "Assault rifle",
+     "role": "All-rounder (easiest meta class)",
+     "tier": "A",
+     "attachments": [
+      [
+       "Muzzle",
+       "TZL-110 V1"
+      ],
+      [
+       "Laser",
+       "SA LAZ-500"
+      ],
+      [
+       "Magazine",
+       "45 Round"
+      ],
+      [
+       "Rear grip",
+       "ZLR Phase Grip"
+      ],
+      [
+       "Underbarrel",
+       "FSS Fireline Grip"
+      ],
+      [
+       "Apex",
+       "M4 Hurricane"
+      ]
+     ],
+     "perks": [
+      "Ghost",
+      "Blood Rush",
+      "Battle Hardened"
+     ],
+     "equipment": [
+      "Flash Grenade",
+      "Frag Grenade",
+      "Trophy System"
+     ],
+     "secondary": "Krait P68",
+     "note": "",
+     "source": "mw4intel.app (Season 1, after the 13 Nov tuning)",
+     "source_url": "https://mw4intel.app/best-loadouts",
+     "as_of": "2026-11-16"
+    },
+    {
+     "weapon": "Han 86",
+     "class": "Assault rifle",
+     "role": "Starter (unlocks early)",
+     "tier": "A",
+     "attachments": [
+      [
+       "Muzzle",
+       "FSS IS300"
+      ],
+      [
+       "Laser",
+       "Schlager Visiv-5"
+      ],
+      [
+       "Stock",
+       "Meiko L9P-Fold"
+      ],
+      [
+       "Rear grip",
+       "Hanbit H86"
+      ],
+      [
+       "Underbarrel",
+       "FSS Fireline Grip"
+      ],
+      [
+       "Apex",
+       "HAN X20 Skybreaker"
+      ]
+     ],
+     "perks": [
+      "Quick Fix",
+      "Fast Hands",
+      "Battle Hardened"
+     ],
+     "equipment": [
+      "Flash Grenade",
+      "Frag Grenade",
+      "Portable Radar"
+     ],
+     "secondary": "Krait P68",
+     "note": "",
+     "source": "mw4intel.app (Season 1, after the 13 Nov tuning)",
+     "source_url": "https://mw4intel.app/best-loadouts",
+     "as_of": "2026-11-16"
+    },
+    {
+     "weapon": "Kastov 762",
+     "class": "Assault rifle",
+     "role": "Lane control / damage",
+     "tier": "A",
+     "attachments": [
+      [
+       "Barrel",
+       "Hanbit 74U 205.74mm"
+      ],
+      [
+       "Laser",
+       "Schlager Visiv-5"
+      ],
+      [
+       "Stock",
+       "Spetsnaz S10"
+      ],
+      [
+       "Rear grip",
+       "FJX Kastov Grip"
+      ],
+      [
+       "Underbarrel",
+       "FSS Fireline Grip"
+      ],
+      [
+       "Apex",
+       "Kastov ARC"
+      ]
+     ],
+     "perks": [
+      "Ghost",
+      "Fast Hands",
+      "Battle Hardened"
+     ],
+     "equipment": [
+      "Flash Grenade",
+      "Frag Grenade",
+      "Trophy System"
+     ],
+     "secondary": "Krait P68",
+     "note": "",
+     "source": "mw4intel.app (Season 1, after the 13 Nov tuning)",
+     "source_url": "https://mw4intel.app/best-loadouts",
+     "as_of": "2026-11-16"
+    }
+   ],
+   "live": [
+    [
+     "WZStats – MW4 loadouts",
+     "https://wzstats.gg/mw4/loadouts/full-loadouts"
+    ],
+    [
+     "CODMunity – MW4 meta",
+     "https://codmunity.gg/mw4"
+    ],
+    [
+     "MW4 Intel – best loadouts",
+     "https://mw4intel.app/best-loadouts"
+    ],
+    [
+     "LFCarry – MW4 loadouts",
+     "https://lfcarry.com/guides/mw4-best-loadouts"
+    ]
+   ]
+  },
+  "warzone": {
+   "season": "MW4 Season 1 (from 6 Nov 2026)",
+   "settings": "modern",
+   "note": "Warzone loadouts carry two guns: one long range, one close range. Black Ops 7 guns are now Legacy weapons with preset builds.",
+   "builds": [
+    {
+     "weapon": "Cronen Osprey",
+     "class": "Assault rifle",
+     "role": "Long range (pair: ISO Nightshade)",
+     "tier": "S",
+     "attachments": [
+      [
+       "Barrel",
+       "IO-556 Tac 18\""
+      ],
+      [
+       "Muzzle",
+       "FSS IS300"
+      ],
+      [
+       "Magazine",
+       "100 Round Drum"
+      ],
+      [
+       "Ammo",
+       "5.56 NATO High Velocity"
+      ],
+      [
+       "Optic",
+       "Locus PX3 Canted"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "2ndshift.gg – Warzone MW4 Season 1",
+     "source_url": "https://www.2ndshift.gg/best-warzone-loadouts/",
+     "as_of": "2026-11-13"
+    },
+    {
+     "weapon": "ISO Nightshade",
+     "class": "SMG",
+     "role": "Close range (pair: Cronen Osprey)",
+     "tier": "S",
+     "attachments": [
+      [
+       "Barrel",
+       "ZLR Carbon-900"
+      ],
+      [
+       "Muzzle",
+       "XRK Herder 40"
+      ],
+      [
+       "Underbarrel",
+       "FSS Fireline Grip"
+      ],
+      [
+       "Magazine",
+       "40 Round Mag"
+      ],
+      [
+       "Laser",
+       "Schlager Visiv-5"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "2ndshift.gg – Warzone MW4 Season 1",
+     "source_url": "https://www.2ndshift.gg/best-warzone-loadouts/",
+     "as_of": "2026-11-13"
+    },
+    {
+     "weapon": "M4",
+     "class": "Assault rifle",
+     "role": "Long range",
+     "tier": "A",
+     "attachments": [
+      [
+       "Optic",
+       "Locus PX3 Canted"
+      ],
+      [
+       "Muzzle",
+       "FSS IS300"
+      ],
+      [
+       "Barrel",
+       "16\" Highmark Barrel"
+      ],
+      [
+       "Magazine",
+       "60 Round Drum"
+      ],
+      [
+       "Stock",
+       "PF1 Fixed Stock"
+      ]
+     ],
+     "perks": [
+      "Hunter",
+      "Deft Hands",
+      "Survivor"
+     ],
+     "equipment": [
+      "Flash Grenade",
+      "Semtex"
+     ],
+     "secondary": "Mosin-Nagant",
+     "note": "",
+     "source": "Dot Esports – best M4 loadout in MW4 Warzone",
+     "source_url": "https://dotesports.com/call-of-duty/guides/best-m4-loadout-mw4-warzone",
+     "as_of": "2026-11-10"
+    },
+    {
+     "weapon": "Cronen Squall",
+     "class": "Assault rifle",
+     "role": "Long range (pair: Wz.55 Striga)",
+     "tier": "A",
+     "attachments": [
+      [
+       "Barrel",
+       "Bryson Longhorn 20\""
+      ],
+      [
+       "Muzzle",
+       "EXP Undertow Gen.2"
+      ],
+      [
+       "Magazine",
+       "60 Round Drum"
+      ],
+      [
+       "Ammo",
+       "6.8 Wrath High Velocity"
+      ],
+      [
+       "Optic",
+       "Locus PX3 Canted"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "2ndshift.gg – Warzone MW4 Season 1",
+     "source_url": "https://www.2ndshift.gg/best-warzone-loadouts/",
+     "as_of": "2026-11-13"
+    },
+    {
+     "weapon": "Wz.55 Striga",
+     "class": "SMG",
+     "role": "Close range",
+     "tier": "A",
+     "attachments": [
+      [
+       "Barrel",
+       "GW Sender 500"
+      ],
+      [
+       "Muzzle",
+       "FTAC Silent Recon"
+      ],
+      [
+       "Magazine",
+       "50 Round Drum Mag"
+      ],
+      [
+       "Stock",
+       "EXP Narrow-Lite"
+      ],
+      [
+       "Laser",
+       "Schlager Visiv-5"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "2ndshift.gg – Warzone MW4 Season 1",
+     "source_url": "https://www.2ndshift.gg/best-warzone-loadouts/",
+     "as_of": "2026-11-13"
+    },
+    {
+     "weapon": "Han 86",
+     "class": "Assault rifle",
+     "role": "Long range (pair: VEL 46)",
+     "tier": "A",
+     "attachments": [
+      [
+       "Barrel",
+       "Hanbit Lightning-7"
+      ],
+      [
+       "Muzzle",
+       "FSS IS300"
+      ],
+      [
+       "Magazine",
+       "60 Round Drum"
+      ],
+      [
+       "Ammo",
+       "5.56 NATO High Velocity"
+      ],
+      [
+       "Optic",
+       "Locus PX3 Canted"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "2ndshift.gg – Warzone MW4 Season 1",
+     "source_url": "https://www.2ndshift.gg/best-warzone-loadouts/",
+     "as_of": "2026-11-13"
+    },
+    {
+     "weapon": "VEL 46",
+     "class": "SMG",
+     "role": "Close range",
+     "tier": "A",
+     "attachments": [
+      [
+       "Barrel",
+       "VB-46 Series 11"
+      ],
+      [
+       "Muzzle",
+       "XRK Herder 40"
+      ],
+      [
+       "Underbarrel",
+       "FSS Fireline Grip"
+      ],
+      [
+       "Magazine",
+       "60 Round Drum"
+      ],
+      [
+       "Laser",
+       "Schlager Visiv-5"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "2ndshift.gg – Warzone MW4 Season 1",
+     "source_url": "https://www.2ndshift.gg/best-warzone-loadouts/",
+     "as_of": "2026-11-13"
+    }
+   ],
+   "live": [
+    [
+     "WZStats – Warzone meta",
+     "https://wzstats.gg/best-loadouts/m4-mw4"
+    ],
+    [
+     "CODMunity – Warzone meta",
+     "https://www.codmunity.gg"
+    ],
+    [
+     "2ndShift – best Warzone loadouts",
+     "https://www.2ndshift.gg/best-warzone-loadouts/"
+    ]
+   ]
+  },
+  "bo7": {
+   "season": "Season 06 (final season)",
+   "settings": "modern",
+   "note": "These are the last Season 06 builds (Warzone board, 2 Nov 2026). Earlier multiplayer staples: M15 Mod 0, Dravec 45, Maddox RFB.",
+   "builds": [
+    {
+     "weapon": "Voyak KT-3",
+     "class": "Assault rifle",
+     "role": "Long range",
+     "tier": "S",
+     "attachments": [
+      [
+       "Optic",
+       "FANG HoverPoint ELO"
+      ],
+      [
+       "Muzzle",
+       "Monolithic Suppressor"
+      ],
+      [
+       "Barrel",
+       "17.6\" LTI Grav-4 Barrel"
+      ],
+      [
+       "Magazine",
+       "SK-Garrison Drum"
+      ],
+      [
+       "Stock",
+       "V-Last Control Pad"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "LFCarry – Warzone meta board, BO7 Season 06",
+     "source_url": "https://lfcarry.com/guides/warzone-meta",
+     "as_of": "2026-11-02"
+    },
+    {
+     "weapon": "VMP",
+     "class": "SMG",
+     "role": "Close range",
+     "tier": "S",
+     "attachments": [
+      [
+       "Muzzle",
+       "LTI Stentorian Brake"
+      ],
+      [
+       "Barrel",
+       "10.9\" Gambol Light Barrel"
+      ],
+      [
+       "Underbarrel",
+       "Sapper Guard Handstop"
+      ],
+      [
+       "Magazine",
+       "Erudite Extended Mag"
+      ],
+      [
+       "Stock",
+       "Greaves Valour Pad"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "LFCarry – Warzone meta board, BO7 Season 06",
+     "source_url": "https://lfcarry.com/guides/warzone-meta",
+     "as_of": "2026-11-02"
+    },
+    {
+     "weapon": "Strider 300",
+     "class": "Sniper",
+     "role": "Long range",
+     "tier": "A",
+     "attachments": [
+      [
+       "Muzzle",
+       "Monolithic Suppressor"
+      ],
+      [
+       "Barrel",
+       "25\" Bowen Grooved Barrel"
+      ],
+      [
+       "Rear grip",
+       "Hatch Quick Grip"
+      ],
+      [
+       "Fire mod",
+       ".300 WM Overpressured"
+      ],
+      [
+       "5th slot",
+       "Cornerstone-642 Guard or Carnation Fast Mag"
+      ]
+     ],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "LFCarry – Warzone meta board, BO7 Season 06",
+     "source_url": "https://lfcarry.com/guides/warzone-meta",
+     "as_of": "2026-11-02"
+    },
+    {
+     "weapon": "M15 Mod 0",
+     "class": "Assault rifle",
+     "role": "Multiplayer all-rounder",
+     "tier": "A",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "Beebom – best Black Ops 7 weapons",
+     "source_url": "https://beebom.com/black-ops-7-best-weapons-loadouts-guide",
+     "as_of": "2026-02-27"
+    },
+    {
+     "weapon": "Dravec 45",
+     "class": "SMG",
+     "role": "Multiplayer close range",
+     "tier": "A",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "Beebom – best Black Ops 7 weapons",
+     "source_url": "https://beebom.com/black-ops-7-best-weapons-loadouts-guide",
+     "as_of": "2026-02-27"
+    }
+   ],
+   "live": [
+    [
+     "CODMunity – BO7 meta",
+     "https://codmunity.gg/bo7"
+    ],
+    [
+     "Game8 – BO7 tier list",
+     "https://game8.co/games/Call-of-Duty-Black-Ops-7/archives/554972"
+    ]
+   ]
+  },
+  "bo6": {
+   "season": "Final meta (2026)",
+   "settings": "modern",
+   "note": "Top picks on WZStats' last BO6 update.",
+   "builds": [
+    {
+     "weapon": "LC10",
+     "class": "SMG",
+     "role": "Close range",
+     "tier": "S",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "WZStats – BO6 meta",
+     "source_url": "https://wzstats.gg/bo6/meta",
+     "as_of": "2026-07-29"
+    },
+    {
+     "weapon": "KSV",
+     "class": "SMG",
+     "role": "Close range",
+     "tier": "S",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "WZStats – BO6 meta",
+     "source_url": "https://wzstats.gg/bo6/meta",
+     "as_of": "2026-07-29"
+    },
+    {
+     "weapon": "FFAR 1",
+     "class": "Assault rifle",
+     "role": "Mid range",
+     "tier": "S",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "WZStats – BO6 meta",
+     "source_url": "https://wzstats.gg/bo6/meta",
+     "as_of": "2026-07-29"
+    }
+   ],
+   "live": [
+    [
+     "WZStats – BO6 meta",
+     "https://wzstats.gg/bo6/meta"
+    ]
+   ]
+  },
+  "codm": {
+   "season": "Season 10 (2026)",
+   "settings": "codm",
+   "note": "Fast-firing SMGs lead this season. Attachments change every season: check each gun's build guide.",
+   "builds": [
+    {
+     "weapon": "Switchblade X9",
+     "class": "SMG",
+     "role": "Close–mid range, best gun this season",
+     "tier": "S",
+     "attachments": [
+      [
+       "Muzzle",
+       "Tactical Suppressor"
+      ],
+      [
+       "Barrel",
+       "MIP Extended Light Barrel"
+      ],
+      [
+       "Stock",
+       "YKM Light Stock"
+      ],
+      [
+       "Ammo",
+       "Extended Mag A"
+      ],
+      [
+       "Rear grip",
+       "Granulated Grip Tape"
+      ]
+     ],
+     "perks": [
+      "Lightweight",
+      "Toughness",
+      "Hardline"
+     ],
+     "equipment": [],
+     "secondary": "",
+     "note": "Build from zilliongamer's X9 guide; its season label is older, so double-check in Gunsmith.",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "Static HV",
+     "class": "SMG",
+     "role": "Close range (nerfed, still strong)",
+     "tier": "S",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "BAL-27",
+     "class": "Assault rifle",
+     "role": "Best AR this season",
+     "tier": "S",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "HVK-30",
+     "class": "Assault rifle",
+     "role": "Mid range",
+     "tier": "A",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "FSS Hurricane",
+     "class": "SMG",
+     "role": "Close range",
+     "tier": "A",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "Locus",
+     "class": "Sniper",
+     "role": "Long range",
+     "tier": "A",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "Grav",
+     "class": "Assault rifle",
+     "role": "Mid range",
+     "tier": "A",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "R9-0",
+     "class": "Shotgun",
+     "role": "Close range",
+     "tier": "A",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "SO-14",
+     "class": "Marksman rifle",
+     "role": "Long range",
+     "tier": "A",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    },
+    {
+     "weapon": "L-CAR 9",
+     "class": "Pistol",
+     "role": "Secondary",
+     "tier": "B",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": "",
+     "source": "zilliongamer – Best Guns in COD Mobile 2026",
+     "source_url": "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026",
+     "as_of": "2026-11-22"
+    }
+   ],
+   "live": [
+    [
+     "zilliongamer – best guns 2026",
+     "https://zilliongamer.com/call-of-duty-mobile/c/cod-mobile/best-guns-cod-mobile-2026"
+    ],
+    [
+     "zilliongamer – BAL-27 build",
+     "https://zilliongamer.com/call-of-duty-mobile/c/weapon-guide/bal-27-cod-mobile-loadout"
+    ],
+    [
+     "zilliongamer – Switchblade X9 build",
+     "https://zilliongamer.com/call-of-duty-mobile/c/weapon-guide/best-switchblade-x9-loadout-cod-mobile"
+    ]
+   ]
+  },
+  "mw3": {
+   "season": "End of life",
+   "settings": "modern",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "MCW",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "SVA 545",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Holger 556",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Striker",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "HRM-9",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "BAL-27",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": [
+    [
+     "CODMunity – MW3",
+     "https://codmunity.gg/weapon/mw3/bal-27"
+    ]
+   ]
+  },
+  "mw2": {
+   "season": "End of life",
+   "settings": "modern",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "Fennec 45",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Vaznev-9K",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "M4",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Kastov 762",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "TAQ-56",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "vanguard": {
+   "season": "End of life",
+   "settings": "modern",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "STG44",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP40",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Cooper Carbine",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Automaton",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Bren",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "bocw": {
+   "season": "End of life",
+   "settings": "modern",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "AK-74u",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP5",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "FFAR 1",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "XM4",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Krig 6",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "mw2019": {
+   "season": "End of life",
+   "settings": "modern",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "M4A1",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Kilo 141",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP5",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP7",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Grau 5.56",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "bo4": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "ICR-7",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Saug 9mm",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Maddox RFB",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Rampart 17",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Spitfire",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "wwii": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "PPSh-41",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "STG44",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Waffe 28",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Grease Gun",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "BAR",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "iw": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "NV4",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Volk",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "RPR Evo",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Erad",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "KBAR-32",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "bo3": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "Kuda",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "VMP",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "ICR-1",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Man-O-War",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Locus",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "aw": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "BAL-27",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "ASM1",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "ARX-160",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "AK-12",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Atlas 45",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "ghosts": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "Honey Badger",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Vector CRB",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Remington R5",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "K7",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "AK-12",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "bo2": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "MSMC",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Peacekeeper",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "AN-94",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MTAR",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "DSR 50",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "mw3_2011": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "ACR 6.8",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Type 95",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP7",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "PP90M1",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MSR",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "bo1": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "AK74u",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "FAMAS",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Galil",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP5K",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "L96A1",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "mw2_2009": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "ACR",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "UMP45",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "SCAR-H",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Intervention",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "FAL",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "waw": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "MP40",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Thompson",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Type 100",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "STG-44",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Kar98k",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "cod4": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "M16A4",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP5",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "AK-47",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "M40A3",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "P90",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "cod3": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "Thompson",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP40",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "BAR",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "M1 Garand",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Kar98k",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "cod2": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "Thompson",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP44",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "BAR",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Kar98k",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "PPSh",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  },
+  "cod1": {
+   "season": "End of life",
+   "settings": "classic",
+   "note": "Community favourites — no live meta for this game. These are the guns players remember as the strongest; balance changed over each game's life.",
+   "builds": [
+    {
+     "weapon": "Thompson",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "MP40",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "BAR",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Kar98k",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    },
+    {
+     "weapon": "Springfield",
+     "class": "",
+     "role": "",
+     "tier": "",
+     "attachments": [],
+     "perks": [],
+     "equipment": [],
+     "secondary": "",
+     "note": ""
+    }
+   ],
+   "live": []
+  }
+ }
+}
